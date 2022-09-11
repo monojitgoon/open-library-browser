@@ -1,0 +1,37 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Modal__container {
+    background: #FFF;
+    border-radius: 10px;
+    padding: 0;
+}
+
+.Modal__close-container {
+    width: 100%;
+    text-align: right;;
+}
+
+.Modal__close {
+    border-style: none;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px 10px 0px 0px;
+    color: #AAA;
+    transition: 200ms;
+}
+
+.Modal__close:hover {
+    color: #E84341;
+}

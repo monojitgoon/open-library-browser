@@ -1,0 +1,42 @@
+
+.SearchBar__container {
+    position: relative;
+    height: 2.5em;
+    width: 15em;
+}
+
+.SearchBar-button {
+    color: inherit;
+    background: none;
+    border-style: none;
+}
+
+.SearchBar-icon__container {
+    position: absolute;
+    right: 0;
+    height: 100%;
+    display: flex;
+    padding: 0.6em;
+    align-items: center;
+    color: var(--scnd-fg-color);
+}
+
+.SearchBar-icon {
+    cursor: pointer;
+}
+
+.SearchBar-input {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 2.5em 0 0.5em;
+    transition: 200ms ease;
+    border: solid 2px #FFFFFF;
+    border-radius: 12px;
+    transition: 200ms ease;
+}
+
+.SearchBar-input:focus {
+    outline: none;
+    border: solid 2px var(--scnd-fg-color);
+}

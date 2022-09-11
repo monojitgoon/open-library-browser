@@ -1,0 +1,28 @@
+.Footer__container {
+    width: 100%;
+    padding: 0.6em;
+    background-color: var(--header-bg-color);
+    color: var(--main-fg-color);
+}
+
+.Footer-item {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    font-size: 1em;
+}
+
+.Footer-item:hover .Footer-item-icon {
+    color: var(--scnd-fg-color);
+}
+
+.Footer-item-icon {
+    text-align: center;
+    width: 1.2em;
+}
+
+.Footer-item-text {
+    text-decoration: none;
+    color: inherit;
+    font-style: italic;
+}

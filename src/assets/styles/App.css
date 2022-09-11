@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+:root {
+  /*Color pallete*/
+  --header-bg-color: #FF7200;
+  --container-bg-color: #F4F9FC;
+  --main-bg-color: #F4F9FC;
+  --main-fg-color: #325D79;
+  --scnd-fg-color: #06C972;
+  --scnd-bg-color: #E84341;
+  --thrd-fg-color: #AAA;
+  --thrd-bg-color: black;
+
+}

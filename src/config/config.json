@@ -1,0 +1,6 @@
+{
+    "SEARCH_API" : "http://openlibrary.org/search.json",
+    "COVER_IMAGE_API" : "http://covers.openlibrary.org/b/id/",
+    "DEFAULT_SEARCH_STRING" : "ALGORITHM DESIGN"                              
+  }
+  
